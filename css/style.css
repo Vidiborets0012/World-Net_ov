@@ -364,58 +364,58 @@ body {
 
 /* <!-- ==================== tariffs ==================== --> */
 
-.section-tarrifs {
+.section-tariffs {
   padding: 0 100px;
 }
 
-.tarrifs-list {
+.tariffs-list {
   display: flex;
   gap: 20px;
 }
-.tarrifs-item {
+.tariffs-item {
   width: calc((100% - 2 * 20px) / 3);
   box-shadow: 2px 4px 15px 0 rgba(0, 0, 0, 0.05);
   background: #fff;
   border-radius: 10px;
   padding: 20px 35px 35px 35px;
 }
-.tarrifs-img {
+.tariffs-img {
   margin: 0 auto 47px;
 }
 
-.tarrifs-item-box {
+.tariffs-item-box {
   display: flex;
   justify-content: space-between;
   margin-bottom: 13px;
 }
 
-.tarrifs-item-titles {
+.tariffs-item-titles {
   font-weight: 700;
   font-size: 27px;
   line-height: 1.1;
   color: #2e363e;
 }
-.tarrifs-item-price {
+.tariffs-item-price {
   font-style: italic;
   font-weight: 600;
   font-size: 24px;
   line-height: 1.1;
 }
 
-.tarrifs-text {
+.tariffs-text {
   line-height: 1.1;
   color: #2e363e;
 }
 
-.tarrifs-item-description {
+.tariffs-item-description {
   margin-bottom: 13px;
 }
 
-.tarrifs-item-text {
+.tariffs-item-text {
   margin-bottom: 52px;
 }
 
-.tarrifs-button {
+.tariffss-button {
   display: block;
   font-size: 17px;
   line-height: 1.1;
