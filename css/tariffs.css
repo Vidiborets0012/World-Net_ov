@@ -51,20 +51,6 @@ body {
   margin: 0 auto;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 /* <!-- ==================== header ==================== -- >  */
 .header {
   border-bottom: 3px solid #275f7a;
@@ -76,8 +62,6 @@ body {
   align-items: center;
 }
 
-.header-content {
-}
 .header-logo {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
@@ -86,11 +70,9 @@ body {
   text-transform: uppercase;
   color: #275f7a;
 }
-.header-nav {
-}
+
 .header-nav-list {
   display: flex;
-  /* gap: 40px; */
 }
 .header-list-item:not(:last-child) {
   margin-right: 40px;
@@ -110,9 +92,6 @@ body {
   color: #275f7a;
 }
 
-.header-addres {
-}
-
 .header-addres-link {
   font-weight: 700;
   font-size: 18px;
@@ -128,9 +107,6 @@ body {
   padding-bottom: 100px;
 }
 
-.tariffs-container {
-}
-
 .tariffs-title {
   font-size: 36px;
   line-height: 1.33;
@@ -141,22 +117,14 @@ body {
 
 .tariffs-list {
   display: flex;
-  /* justify-content: space-between; */
-  /* flex-direction: row;
-  align-items: center; */
-  /* gap: 41px; */
 }
 
 .tariffs-item {
   display: flex;
-  /* row-gap: 40px; */
-  /* flex-direction: column; */
-
   box-shadow: 2px 4px 15px 0 rgba(0, 0, 0, 0.05);
   background-color: #e3f2f9;
   border-radius: 10px;
   padding: 80px 46px 80px 40px;
-  /* margin-bottom: 41px; */
 }
 
 .tariffs-item:not(:last-child) {
@@ -235,67 +203,6 @@ body {
   margin-right: 35px;
 }
 
-/* .section-tariffs {
-  padding: 0 100px;
-}
-
-.tariffs-list {
-  display: flex;
-  gap: 20px;
-}
-.tariffs-item {
-  width: calc((100% - 2 * 20px) / 3);
-  box-shadow: 2px 4px 15px 0 rgba(0, 0, 0, 0.05);
-  background: #fff;
-  border-radius: 10px;
-  padding: 20px 35px 35px 35px;
-}
-.tariffs-img {
-  margin: 0 auto 47px;
-}
-
-.tariffs-item-box {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 13px;
-}
-
-.tariffs-item-titles {
-  font-weight: 700;
-  font-size: 27px;
-  line-height: 1.1;
-  color: #2e363e;
-}
-.tariffs-item-price {
-  font-style: italic;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 1.1;
-}
-
-.tariffs-text {
-  line-height: 1.1;
-  color: #2e363e;
-}
-
-.tariffs-item-description {
-  margin-bottom: 13px;
-}
-
-.tariffs-item-text {
-  margin-bottom: 52px;
-}
-
-.tariffss-button {
-  display: block;
-  font-size: 17px;
-  line-height: 1.1;
-  color: #275f7a;
-  border: none;
-  text-decoration: underline;
-  background-color: transparent;
-  margin-left: auto;
-} */
 /* <!-- ==================== footer ==================== --> */
 
 .footer {
@@ -322,12 +229,7 @@ body {
   display: flex;
   gap: 50px;
 }
-.foter-social-item {
-}
-.footer-social-link {
-}
-.footer-social-img {
-}
+
 .footer-addres {
   margin-left: 194px;
 }
